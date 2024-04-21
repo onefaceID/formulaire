@@ -1,0 +1,69 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box²;
+    color: white;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+.quiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 5px;
+    width: auto;
+    padding: 10px;
+}
+.quiz> p{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    color: blueviolet;
+    padding: 10px;
+}
+.choices{
+    width: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+.label{
+    border-bottom: 2px solid blue;
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+label{
+    width: 100%;
+    padding: 10px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    font-size: 16px;
+    color: purple;
+    transition: all 300ms ease;
+    display: block;
+}
+button:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: all 300ms ease;
+}
+button:active{
+    background-color: whitesmoke;
+}
+input:checked{
+    background-color: black;
+}
